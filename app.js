@@ -43,7 +43,7 @@ const request = https.request(url, options, function (response) {
 
   } else {
        res.sendFile(__dirname + "/failure.html");
-       res.send("failed")
+//        res.send("failed")
   }
 
       response.on("data", function (data) {
